@@ -130,11 +130,11 @@
     }
 
 .inputBox1 ::placeholder {
-    color: #999 !important;
+    color: #999;
 }
 
 .info1 {
-    background: #0e3959 !important;
+    background: #0e3959;
 }
 
     .info1 h3 {
@@ -142,33 +142,33 @@
     }
 
     .info1 infoBox1 {
-        display: flex !important;
-        align-items: center !important;
-        margin-bottom: 10px !important;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
     }
 
         .info1 infoBox1 div span {
-            min-width: 40px !important;
-            height: 40px !important;
-            color: #fff !important;
-            background: #18b7ff !important;
-            display: flex !important;
-            justify-content: center !important;
-            align-items: center !important;
-            font-size: 1.5em !important;
-            border-radius: 50% !important;
-            margin-right: 15px !important;
+            min-width: 40px;
+            height: 40px;
+            color: #fff;
+            background: #18b7ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            border-radius: 50%;
+            margin-right: 15px;
         }
 
         .info1 infoBox1 div p {
-            color: #fff !important;
-            font-size: 1.1em !important;
+            color: #fff;
+            font-size: 1.1em;
         }
 
     .info1 .infoBox1 div a {
-        color: #fff !important;
-        text-decoration: none !important;
-        font-size: 1.1em !important;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1em;
     }
 
 .sci1 {
@@ -211,9 +211,7 @@
     }
 /*responsiveness*/
 @media (max-width: 960px) {
-    body {
-        background: #03a9f5;
-    }
+
 
 
     .box1 {
