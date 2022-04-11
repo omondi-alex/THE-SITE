@@ -14,7 +14,7 @@
 
 .contactus1 {
     position: relative;
-    width: 100%;
+    width: 80%;
     padding: 60px 100px;
     background: #191919;
 }
@@ -70,7 +70,7 @@
 /*form*/
 .formBox1 {
     position: relative;
-    width: 100%;
+    width: 80%;
 }
 
     .formBox1 .row50 {
@@ -86,7 +86,7 @@
 }
 
 .formBox1 .row100 .inputBox1 {
-    width: 100%;
+    width: 80%;
 }
 
 .inputBox1 span {
@@ -210,7 +210,7 @@
         height: 100%;
     }
 /*responsiveness*/
-@media (max-width: 599px) {
+@media (max-width: 960px) {
     body {
         background: #03a9f5;
     }
