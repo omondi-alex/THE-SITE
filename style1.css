@@ -210,7 +210,7 @@
         height: 100%;
     }
 /*responsiveness*/
-@media (max-width: 991px) {
+@media (max-width: 960px) {
     body {
         background: #03a9f5;
     }
