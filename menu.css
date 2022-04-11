@@ -1,0 +1,166 @@
+﻿nav {
+    height: 65px;
+}
+
+.nav-item active {
+    text-align: justify !important
+}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+    padding-top: 3rem;
+    bottom: 0;
+}
+
+.row {
+    margin: 50px auto 50px auto;
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.nav-link {
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+.nav-item :hover {
+    color: #f9004d !important;
+    transition: .4s !important;
+}
+
+/* RESPONSIVE CSS */
+@media (max-width: 768px) {
+    /* responsive menu list */
+    .collapse ul li {
+        background-color: #ffffff;
+    }
+
+    .row .col-md-4 {
+        margin: 80px auto 1px auto;
+    }
+}
+
+@media (min-width: 640px) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+.navbar.collapse.navbar-nav ul {
+    background-color: blue;
+}
+
+/*Social media icons START*/
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+/*fotter*/
+
+/*------- Footer Area Start -----------*/
+.footer-icons ul li {
+    display: inline-block;
+}
+
+    .footer-icons ul li a {
+        border: 1px solid #444;
+        color: #444;
+        display: block;
+        font-size: 16px;
+        height: 40px;
+        line-height: 38px;
+        margin-right: 5px;
+        text-align: center;
+        width: 40px;
+        border-radius: 50%;
+    }
+
+.footer-icons {
+    text-align: center;
+}
+
+.footer-contacts p span {
+    color: #3EC1D5;
+    font-weight: 700;
+}
+
+.popular-tag ul li {
+    display: inline-block;
+}
+
+.footer-content {
+    display: block;
+    overflow: hidden;
+}
+
+.popular-tag ul li a:hover,
+.footer-icons ul li a:hover {
+    background: #3EC1D5;
+    border: 1px solid #3EC1D5;
+    color: #fff;
+}
+
+.popular-tag ul li a {
+    border: 1px solid #444;
+    border-radius: 30px;
+    color: #444;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px 3px;
+    padding: 5px 10px;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+    width: 70px;
+    text-align: center;
+}
+
+.footer-area-bottom {
+    background: #f1f1f1 none repeat scroll 0 0;
+    padding: 15px 0;
+}
+
+.copyright-text a:hover {
+    text-decoration: underline;
+    color: #3EC1D5;
+}
+
+.copyright-text a {
+    color: #444;
+}
+
+.copyright > p {
+    margin-bottom: 0;
+    color: #444;
+}
+
+.credits {
+    padding-top: 5px;
+    text-align: center;
+}
+
+    .credits a {
+        color: #000;
+    }
