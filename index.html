@@ -391,12 +391,12 @@
     <script>
         function sendEmail() {
             Email.send({
-                Host: "smtp.yourisp.com",
-                Username: "username",
-                Password: "password",
-                To: 'them@website.com',
-                From: "you@isp.com",
-                Subject: "This is the subject",
+                Host: "smtp.gmail.com",
+                Username: "omondialex3517@gmail.com",
+                Password: "what",
+                To: 'omondialex3517@gmail.com',
+                From: document.getElementByid("email").value,
+                Subject: "Contact Form",
                 Body: "And this is the body"
             }).then(
                 message => alert(message)
