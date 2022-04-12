@@ -254,7 +254,7 @@
         <div class="box1">
             <div class="contact1 form1">
                 <h3>Send Me a Message</h3>
-                <form onsubmit="sendEmail(); onreset(); return false; ">
+                <form onsubmit="sendEmail(); reset(); return false; ">
                     <div class="formBox1">
                         <div class="row50">
                             <div class="inputBox1">
@@ -284,7 +284,7 @@
 
                             <div class="inputBox1">
                                 <label for="Mobile"><span>Mobile</span></label>
-                                <input type="text" id="mobile" name="mobile" placeholder="If You want Me to Call You" />
+                                <input type="text" id="mobile" name="Mobile" placeholder="If You want Me to Call You" />
 
                             </div>
                         </div>
@@ -393,13 +393,13 @@
             Email.send({
                 Host: "smtp.gmail.com",
                 Username: "omondialex3517@gmail.com",
-                Password: "what",
+                Password: "Theboy3517",
                 To: 'omondialex3517@gmail.com',
                 From: document.getElementByid("email").value,
-                Subject: "Contact Form",
-                Body: "And this is the body"
+                Subject: "New Contact Form Enquary",
+                Body: "First Name:" + document.getElementById("firstname").value + "<br> First Name: " + document.getElementById(lastname).value + "<br> Email: " + document.getElementById(email).value + "<br> Mobile: " + document.getElementById(mobile).value + "<br> Message: " + document.getElementById(message).value
             }).then(
-                message => alert(message)
+                message => alert("Message Sent Succesfully")
             );
         }
     </script>
