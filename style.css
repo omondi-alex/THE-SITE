@@ -101,7 +101,7 @@ h3 {
 }
 
 .newsletter form {
-    width: 160px;
+    width: 200px;
     max-width: 100%;
     position: relative;
 }
@@ -109,7 +109,7 @@ h3 {
     .newsletter form input:first-child {
         display: inline-block;
         width: 100%;
-        padding: 14px 130px 14px 15px;
+        padding: 14px 15px 14px 15px;
         border: 2px solid #f9004d;
         outline: none;
         border-radius: 30px;
