@@ -1,7 +1,7 @@
 // JavaScript source code
 
 //Get in Touch
-/*var form = document.getElementById("my-form");
+var form = document.getElementById("my-form");
 
 async function handleSubmit(event) {
     event.preventDefault();
@@ -172,4 +172,3 @@ $(document).ready(function () {
         }, 2000);
     });
 })
-*/
