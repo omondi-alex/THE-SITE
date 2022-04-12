@@ -253,7 +253,7 @@
         <div class="box1">
             <div class="contact1 form1">
                 <h3>Send Me a Message</h3>
-                <form action="https://formspree.io/f/mayvpwng" method="post" id="my-form">
+                <form onsubmit="sendEmail(); onreset(); return false; ">
                     <div class="formBox1">
                         <div class="row50">
                             <div class="inputBox1">
@@ -386,7 +386,22 @@
 
 
     <script src="./myjs.js "></script>
-
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.yourisp.com",
+                Username: "username",
+                Password: "password",
+                To: 'them@website.com',
+                From: "you@isp.com",
+                Subject: "This is the subject",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
 
 
 </body>
