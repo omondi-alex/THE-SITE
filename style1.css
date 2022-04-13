@@ -126,6 +126,7 @@
 
     .inputBox1 input[type="submit" ]:hover {
         background-color: #191919;
+        color: #000;
     }
 
 .inputBox1 ::placeholder {
